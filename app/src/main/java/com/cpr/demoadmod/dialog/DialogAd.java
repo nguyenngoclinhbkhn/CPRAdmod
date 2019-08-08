@@ -411,7 +411,6 @@ public class DialogAd extends Dialog implements View.OnClickListener {
         dismiss();
         Log.e("TAG", "Reload data");
         reloadData();
-        onLoadListener.loadDataClose();
         handler.removeCallbacks(runnable);
     }
 

@@ -168,9 +168,10 @@ public class Banner extends LinearLayout {
                         logoApp, bgStartColor, bgEndColor, bgBtnUnclicked, bgBtnClicked,
                         colorTextTitle, colorTextButton, cover));
             }
+            showAd(0, context);
+            handler.postDelayed(runnable, 500);
         }
-        showAd(0, context);
-        handler.postDelayed(runnable, 500);
+
     }
 
 
